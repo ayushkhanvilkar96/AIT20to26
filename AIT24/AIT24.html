@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>AIT</title>
+
+    <link href="" rel="stylesheet">
+
+    <style type="text/css">
+
+        body{
+            background: #FFFFFF;
+        }
+
+        .a{
+            padding-left: 280px;
+        }
+        p, h1, header, footer, ul {
+            font-family: Arial;
+            font-size: 20px;
+
+        }
+
+
+        header{
+            height: 150px;
+            clear: left;
+            text-align: center;
+            border: 1px solid #CCC;
+            background: #D9EDF7;
+            max-width: 960px;
+        }
+
+        footer{
+            height: 100px;
+            clear: left;
+            text-align: center;
+            border: 1px solid #CCC;
+            background: #D9EDF7;
+            max-width: 960px;
+        }
+
+        nav {
+            float: left;
+            max-width: 300px;
+            margin: 0;
+            padding: 1em;
+            padding-top: 30px;
+        }
+
+        article {
+            margin-left: 170px;
+            border-left: 1px solid gray;
+            padding: 1em;
+            overflow: hidden;
+            max-width: 600px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline;
+        }
+
+        .row{
+            width:100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .div1{
+            border: 1px solid black;
+            margin-right: 20px;
+            margin-left: 15px;
+            margin-top: 25px;
+            position: relative;
+            padding: 10px;
+        }
+
+
+.col-1{
+  width:8.33% ;
+}
+
+.col-2{
+  width:16.33%;
+}
+
+.col-3{
+  width:25%;
+}
+
+.col-4{
+  width:33.33%;
+}
+
+.col-5{
+  width:41.66%;
+}
+
+.col-6{
+  background-color:"red" ;
+  width:50% ;
+}
+
+.col-7{
+  width:58.33% ;
+}
+
+.col-8{
+  width:66.66% ;
+}
+
+.col-9{
+  width:75% ;
+}
+
+.col-10{
+  width:83.33% ;
+}
+
+.col-11{
+  width:91.33% ;
+}
+
+.col-12{
+  width:100%;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.div1
+{
+  border: 1px solid black;
+  margin-right: 20px;
+  margin-left: 15px;
+  margin-top: 25px;
+  position: relative;
+  padding: 10px;
+}
+
+
+#e{
+margin-left: 15px;
+}
+
+#f{
+margin-right: 15px;
+margin-left: 50px;
+}
+
+#s
+{
+margin-right: 15px; 
+}
+
+.row{
+width:100%;
+display: flex;
+flex-wrap: wrap;
+}
+
+.colm-1{
+  width:8.33% ;
+}
+
+.col-m2{
+  width:16.33%;
+}
+
+.colm-3{
+  width:25%;
+}
+
+.colm-4{
+  width:33.33%;
+}
+
+.colm-5{
+  width:41.66%;
+}
+
+.colm-6{
+  width:50% ;
+}
+
+.colm-7{
+  width:58.33% ;
+}
+
+.colm-8{
+  width:66.66% ;
+}
+
+.colm-9{
+  width:75% ;
+}
+
+.colm-10{
+  width:83.33% ;
+}
+
+.colm-11{
+  width:91.33% ;
+}
+
+.colm-12{
+  width:100%;
+}
+
+}
+
+
+@media (max-width: 767px)
+{
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.div1
+{
+  border: 1px solid black;
+  margin-right: 20px;
+  margin-left: 15px;
+  margin-top: 25px;
+  position: relative;
+  padding: 10px;
+}
+
+p
+{
+color:black;
+}
+
+body
+{
+  font-size: 25px;
+}
+#e{
+margin-left: 15px;
+}
+
+#f{
+margin-right: 15px;
+
+}
+
+#s
+{
+margin-right: 15px; 
+}
+
+.row{
+width:100%;
+display: flex;
+flex-wrap: wrap;
+}
+
+.cols-1{
+  width:8.33% ;
+}
+
+.cols-2{
+  width:16.33%;
+}
+
+.cols-3{
+  width:25%;
+}
+
+.cols-4{
+  width:33.33%;
+}
+
+.cols-5{
+  width:41.66%;
+}
+
+.cols-6{
+  width:50% ;
+}
+
+.cols-7{
+  width:58.33% ;
+}
+
+.cols-8{
+  width:66.66% ;
+}
+
+.cols-9{
+  width:75% ;
+}
+
+.cols-10{
+  width:83.33% ;
+}
+
+.cols-11{
+  width:91.33% ;
+}
+
+.cols-12{
+  width:100%;
+}
+
+}
+
+
+#trans1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 3s; /* Safari */
+    -webkit-transition-delay: 1s; /* Safari */
+    transition: width 3s;
+    transition-delay: 1s;
+}
+
+#trans1:hover {
+    width: 300px;
+    background: blue;
+}
+
+#trans2 {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+}
+
+#trans2:hover {
+    width: 300px;
+    height: 300px;
+    background: green;
+}
+
+    </style>
+
+
+</head>
+
+<body>
+
+<div class="a">
+<header><h1>Virat Kohli</h1> Header
+<hr>
+<ul>
+  <li><a href="#stats">Stats</a></li>
+  <li><a href="#Info">Info</a></li>
+  <li><a href="#Personal">Personal</a></li>
+  </ul>
+</header>
+
+<nav>
+<h1>Sidebar</h1>
+<p>Kohli has been the recipient of many awards such as the ICC ODI Player of the Year in 2012 and the BCCI's international cricketer of the year.</p>
+</nav>
+
+<article>
+  <h1>Virat Kohli</h1>
+  <p>Kohli was appointed vice-captain of the ODI team in 2012, and handed over the Test captaincy following Mahendra Singh Dhoni's Test retirement in 2014.
+   In early 2017, he became the limited-overs captain as well after Dhoni stepped down from the position. Kohli holds numerous Indian batting records including the fastest ODI century, the fastest batsman to 5,000 ODI runs and the fastest to 10 ODI centuries. </p>
+   <p>Born and raised in Delhi, Kohli represented the city's cricket team at various age-group levels before making his first-class debut in 2006. He captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </p>
+</article>
+
+<div id="trans1"><p>Hover your mouse here.</p></div>
+
+<div id="trans2"><p>Hover your mouse here.</p></div>
+
+<br><br>
+
+
+
+<footer><h1>Virat Kohli</h1> Footer</footer>
+</div>
+
+
+<div class="row">
+
+    <div class="col-3 div1 colm-5 cols-12" id="e">
+    <p><br>Virat Kohli is an Indian international cricketer who currently captains the Indian team in Test cricket and is its vice-captain in limited-overs formats. A right-handed batsman often rated as one of the best batsmen in the world,Kohli was ranked eighth in ESPN's list of world's most famous athletes in 2016.</p>
+    </div>
+    
+    <div class="col-3 div1 colm-5 cols-12" id="f">
+    <p><br>Mahendra Singh Dhoni is an Indian cricketer and the current captain of the Indian national cricket team in limited-overs formats. An attacking right-handed middle-order batsman and wicket-keeper, he is widely regarded as one of the greatest finishers in limited-overs cricket.</p> 
+    </div>
+    
+    <div class="col-3 div1 colm-12 cols-12" id="s">
+    <p><br>Sachin Ramesh Tendulkar is a former Indian cricketer and captain, widely regarded as one of the greatest batsmen of all time.He took up cricket at the age of eleven, made his Test debut on 15 November 1989 against Pakistan in Karachi at the age of sixteen. </p>    
+    </div>
+    
+</div>
+
+    <script></script>
+
+
+
+</body>
+
+</html>
